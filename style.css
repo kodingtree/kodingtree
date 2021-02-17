@@ -1,0 +1,17 @@
+/* This will be for handling the css of our website */
+
+body {
+    background-color: rgb(77, 81, 84);
+    color: rgb(247, 247, 247);
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 200;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 50px;
+}
