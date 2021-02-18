@@ -1,0 +1,29 @@
+/* This is the main css file for this website */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+/* For the heading */
+
+.kt-head {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.kt-head-2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
