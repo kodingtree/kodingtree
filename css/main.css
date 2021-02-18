@@ -4,7 +4,7 @@ html {
     font-size: 62%;
 }
 
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
     html {
         font-size: 45%;
     }
