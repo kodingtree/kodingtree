@@ -10,11 +10,13 @@ html {
     }
 }
 
+
+/* 
 @media screen and (min-width: 500px) {
     html {
         font-size: 5%;
     }
-}
+} */
 
 body {
     background-color: aliceblue;
