@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(77, 81, 84);
-    color: rgb(247, 247, 247);
+    color: rgb(230, 222, 222);
 }
 
 h3 {
@@ -14,4 +14,5 @@ h3 {
 p {
     font-size: 20px;
     padding-left: 50px;
+    font-weight: 100;
 }
