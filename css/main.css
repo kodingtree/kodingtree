@@ -1,12 +1,12 @@
 /* This is the main css file for this website */
 
 html {
-    font-size: 62.5%;
+    font-size: 62%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
     html {
-        font-size: 5%;
+        font-size: 45%;
     }
 }
 
