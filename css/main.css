@@ -11,7 +11,7 @@ html {
         /* background-color: blueviolet; */
     }
     .kt-head {
-        color: blueviolet;
+        color: rgb(0, 0, 0);
         /* background-color: brown; */
     }
 }
@@ -25,11 +25,12 @@ html {
 } */
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(252, 214, 156);
 }
 
 p {
     font-size: 2rem;
+    color: rgb(0, 0, 0);
 }
 
 

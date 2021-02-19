@@ -1,0 +1,19 @@
+html {
+    font-size: 62%;
+}
+
+body {
+    background-color: rgb(199, 163, 232);
+}
+
+.pg-title {
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 370px) {
+    .pg-title {
+        font-size: 50%;
+        /* color: red; */
+        /* background-color: blueviolet; */
+    }
+}
