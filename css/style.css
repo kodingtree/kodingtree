@@ -1,11 +1,62 @@
-body {
-    background-color: aquamarine;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    border-radius: 5px;
+    /* margin-top: 2px; */
+    background-color:lightseagreen;
+    border: 10px solid blueviolet;
+}
+::selection {
+    background-color: orange;
+}
+.container {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .heading {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
-    color: blue;
+    font-size: 40px;
+    color: white;
+    background-color: blueviolet;
+    border: 2.5px solid white;
+    border-radius: 9px;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+
+.hover :hover {
+    background-color: black;
+    color: white;
+    transition: .9s;
+}
+.content {
+
+    height: 100px;
+    width: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: wheat; */
+    margin: auto;
+}
+.item {
+    font-size: 25px;
+    color: rgb(0, 0, 167);
+}
+
+.item :hover {
+    color: white;
 }
