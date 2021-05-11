@@ -11,7 +11,7 @@ body {
     border-radius: 5px;
     /* margin-top: 2px; */
     background-color:lightseagreen;
-    border: 10px solid blueviolet;
+    border: 5px solid yellow;
 }
 ::selection {
     background-color: orange;
@@ -29,14 +29,16 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     color: white;
-    background-color: blueviolet;
-    border: 2.5px solid white;
-    border-radius: 9px;
+    color: black;
+    /* background-color: blueviolet; */
+    background-color: yellow;
+    border: 3px solid blue;
+    border-radius: 14px;
     padding: 0px 40px;
     cursor: pointer;
 }
 
-.hover :hover {
+.hover-off :hover {
     background-color: black;
     color: white;
     transition: .9s;
@@ -54,11 +56,12 @@ body {
 }
 .item {
     font-size: 25px;
-    color: rgb(0, 0, 167);
+    /* color: white; */
+    color: yellow;
 }
 
-.item :hover {
-    color: white;
+.item-off :hover {
+    color: blue;
 }
 
 @media (max-width : 700px) {
